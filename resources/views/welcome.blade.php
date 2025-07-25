@@ -44,7 +44,7 @@
                         Login
                     </a>
                     @if (Route::has('register'))
-                        <a href="{{ route('register') }}" class="px-8 py-3 border border-blue-600 text-blue-600 rounded-md font-semibold hover:bg-blue-50 transition">
+                        <a href="{{ route('register') }}" class="px-8 py-3 border border-teal-600 text-teal-600 rounded-md font-semibold hover:bg-teal-50 transition">
                             Sign Up
                         </a>
                     @endif
