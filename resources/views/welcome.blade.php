@@ -40,7 +40,7 @@
                         Go to Dashboard
                     </a>
                 @else
-                    <a href="{{ route('login') }}" class="px-8 py-3 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 transition">
+                    <a href="{{ route('login') }}" class="px-8 py-3 bg-teal-600 text-white rounded-md font-semibold hover:bg-teal-700 transition">
                         Login
                     </a>
                     @if (Route::has('register'))
